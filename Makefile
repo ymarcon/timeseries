@@ -1,6 +1,6 @@
-generate:
+data:
 	mkdir -p out
-	python generate.py
+	python data.py
 
 duckdb:
 	python duckdb-perf.py

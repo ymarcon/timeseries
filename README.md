@@ -5,7 +5,7 @@ Comparision of [duckdb](https://duckdb.org/), [polars](https://pola.rs/) and [pa
 Generate data files:
 
 ```
-make generate
+make data
 ```
 
 Compare execution times:
