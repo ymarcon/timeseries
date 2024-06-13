@@ -30,5 +30,5 @@ def do_generate(start_date: str, end_date: str, frequency: str):
 frequencies = ['D', 'h', 'min'] # https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#timeseries-offset-aliases
 
 for freq in frequencies:
-  do_generate('2020-01-01', '2023-12-31', freq)
+  do_generate('2014-01-01', '2023-12-31', freq)
 
